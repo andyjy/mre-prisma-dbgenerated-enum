@@ -1,8 +1,8 @@
 {
   "name": "mre-prisma-dbgenerated-enum",
   "dependencies": {
-    "@prisma/client": "^5.17.0",
-    "prisma": "^5.17.0"
+    "@prisma/client": "^6.0.0",
+    "prisma": "^6.0.0"
   },
   "scripts": {
     "start-postgres": "docker run --name mre-postgres -e POSTGRES_HOST_AUTH_METHOD=trust -d -p 5432:5432 postgres"
